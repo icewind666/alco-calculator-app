@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    tools:context="simo.com.alco.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="false">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:shrinkColumns="*"
+                android:weightSum="10"
+                android:background="#545145"
+                >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="380dp"
+                        android:layout_height="150dp"
+                        android:background="#fdf4f1"
+                        android:gravity="center_vertical"
+                        android:padding="6sp"
+                        android:text="@string/initialTextFertman2"
+                        android:textColor="#181919"
+                        android:textSize="14dp" />
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#545145"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:capitalize="characters"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:tag="8"
+                        android:text="Крепость разводимого спирта (1000мл),%"
+                        android:textColor="#fdf4f1"
+                        android:textSize="5dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_23"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_span="6"
+                        android:background="#181919"
+                        android:capitalize="characters"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:tag="7"
+                        android:text="Необходимая крепость спирта после разведения, %"
+                        android:textColor="#fdf4f1"
+                        android:textSize="10dp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_e5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_f4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="7"
+                        android:text="90"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="90" />
+
+                    <Button
+                        android:id="@+id/fbutton_g2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="6"
+                        android:text="85"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="85" />
+
+                    <Button
+                        android:id="@+id/fbutton_73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="6"
+                        android:text="80"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="80" />
+
+                    <Button
+                        android:id="@+id/fbutton_43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="6"
+                        android:text="75"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="75" />
+
+                    <Button
+                        android:id="@+id/fbutton_57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="6"
+                        android:text="70"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="70" />
+
+                    <Button
+                        android:id="@+id/fbutton_6a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="6"
+                        android:text="65"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="65" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_ea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:text="95"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_fs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:text="64"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="64" />
+
+                    <Button
+                        android:id="@+id/fbutton_gs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="133"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="133" />
+
+                    <Button
+                        android:id="@+id/fbutton_7d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="209"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="209" />
+
+                    <Button
+                        android:id="@+id/fbutton_4d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="295"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="295" />
+
+                    <Button
+                        android:id="@+id/fbutton_5f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="391"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="391" />
+
+                    <Button
+                        android:id="@+id/fbutton_6g"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="501"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="501" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_eg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:text="90"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="90" />
+
+                    <Button
+                        android:id="@+id/fbutton_fh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_gh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="65"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="65" />
+
+                    <Button
+                        android:id="@+id/fbutton_7h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="138"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="138" />
+
+                    <Button
+                        android:id="@+id/fbutton_4j"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="218"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="218" />
+
+                    <Button
+                        android:id="@+id/fbutton_5j"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="310"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="310" />
+
+                    <Button
+                        android:id="@+id/fbutton_6j"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="414"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp"
+                        tools:text="414" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_ej"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:text="85"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="85" />
+
+                    <Button
+                        android:id="@+id/fbutton_fj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_gj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_7k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="68"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_4k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="144"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_5q"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="231"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_6q"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="329"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_eq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:text="80"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="80" />
+
+                    <Button
+                        android:id="@+id/fbutton_fq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_gq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_7q"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_4q"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="72"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_5qq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="153"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_6qe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="246"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_eqq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:text="75"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="75" />
+
+                    <Button
+                        android:id="@+id/fbutton_fqq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_gqq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_7qq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_4qq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_5qqs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="76"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_6qq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="163"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_eqqq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:text="70"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="70" />
+
+                    <Button
+                        android:id="@+id/fbutton_fw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_gw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_7w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_4w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_5w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_6w"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="81"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_ew"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:text="65"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="65" />
+
+                    <Button
+                        android:id="@+id/fbutton_fb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_gb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_7n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_4n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_5n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_6n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/fbutton_e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:tag="8"
+                        android:text="60"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:text="60" />
+
+                    <Button
+                        android:id="@+id/fbutton_f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_g"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

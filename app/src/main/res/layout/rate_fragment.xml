@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="simo.com.alco.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="false">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#fdf4f1"
+                android:gravity="end|center_vertical"
+                android:padding="6dp"
+                android:text="@string/rateString"
+                android:textColor="#181919"
+                android:textSize="18sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*"
+                android:shrinkColumns="*"
+                android:weightSum="3"
+                android:background="#545145"
+                >
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+                    <Button
+                        android:id="@+id/btnNoThanks"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:text="@string/rateNo"
+                        android:textAllCaps="false"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                        android:textColor="#fdf4f1"
+                        android:textSize="26sp"
+                        android:layout_marginEnd="1dp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+                    <Button
+                        android:id="@+id/btnLater"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:text="@string/rateMaybeLater"
+                        android:textAllCaps="false"
+                        android:textColor="#fdf4f1"
+                        android:textSize="26sp"
+                        android:layout_marginEnd="1dp" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+                    <Button
+                        android:id="@+id/btnRate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:text="@string/rateYes"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="26sp"
+                        android:layout_marginEnd="1dp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

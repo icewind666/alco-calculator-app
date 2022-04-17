@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+
+    android:fitsSystemWindows="true"
+    tools:context="simo.com.alco.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#181919"
+                            android:shrinkColumns="*"
+                            android:stretchColumns="*"
+                            android:weightSum="1">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical|center_horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/textView_settings"
+                                    android:layout_width="380dp"
+                                    android:layout_height="75dp"
+                                    android:background="#fdf4f1"
+                                    android:gravity="left|right|center_vertical|end"
+                                    android:padding="6sp"
+                                    android:text="@string/settingsTitle"
+                                    android:textColor="#181919"
+                                    android:textSize="18dp" />
+
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/black"
+                            android:orientation="vertical"
+                            android:weightSum="6">
+
+                            <TextView
+                                android:id="@+id/textView22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="@string/heads_percentTxt"
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/headsPercentTxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="3dp"
+                                android:text="5%"
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/black"
+                                android:orientation="horizontal"
+                                android:weightSum="1">
+
+                                <SeekBar
+                                    android:id="@+id/headsPercent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:max="20"
+                                    android:min="0"
+                                    android:paddingRight="2dp"
+                                    android:progress="0" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView23"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="@string/heads_SettingDescription"
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="10dp" />
+
+                            <TextView
+                                android:id="@+id/textView52"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="МОИ ЗАКАЗЫ"
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
+
+                            <Button
+                                android:id="@+id/myorders_settings"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#4cd3c9"
+                                android:padding="6sp"
+                                android:text="Посмотреть"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="СОТРУДНИЧЕСТВО С КАЛЬКУЛЯТОРОМ САМОГОНЩИКА"
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
+
+                            <Button
+                                android:id="@+id/partnerBtn"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#4cd3c9"
+                                android:padding="6sp"
+                                android:text="Стать партнером"
+                                android:textSize="14dp" />
+
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="ПОДЕЛИТЕСЬ С ДРУГОМ"
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
+
+                            <Button
+                                android:id="@+id/socialDialog_settings"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#4cd3c9"
+                                android:padding="6sp"
+                                android:text="Рассказать"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="ОЦЕНИТЕ ПРИЛОЖЕНИЕ"
+                                android:textColor="@android:color/white" />
+
+                            <Button
+                                android:id="@+id/rateApp_settings"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#4cd3c9"
+                                android:padding="6sp"
+                                android:text="Оценить"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="ВАШЕ МНЕНИЕ"
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
+
+
+                            <Button
+                                android:id="@+id/sendEmail_settings"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#4cd3c9"
+                                android:padding="6sp"
+                                android:text="Написать разработчику"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/textView31"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="ПРАВОВАЯ ИНФОРМАЦИЯ"
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
+                            <Button
+                                android:id="@+id/privacyAgreement_settings"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#4cd3c9"
+                                android:padding="6sp"
+                                android:text="Пользовательское соглашение"
+                                android:textSize="14dp" />
+
+                            <Button
+                                android:id="@+id/privacyPolicy_settings"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:background="#4cd3c9"
+                                android:padding="6sp"
+                                android:text="Политика конфиденциальности"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/txtAuth"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="6sp"
+                                android:text="ВЫ НЕ АВТОРИЗОВАНЫ"
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
+
+
+                            <Button
+                                android:id="@+id/auth_settings"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#4cd3c9"
+                                android:padding="6sp"
+                                android:text="Выйти"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

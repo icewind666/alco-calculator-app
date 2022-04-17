@@ -1,0 +1,13 @@
+package simo.com.alco;
+
+public enum ValidateResult {
+    UNREAL_INITIAL_PROOF,
+    INVALID_INITIAL_PROOF,
+    ZERO_PROOF,
+    TOO_HIGH_TEMPERATURE,
+    TOO_LOW_TEMPERATURE,
+    DESIRED_PROOF_IS_HIGHER_THAN_INITIAL,
+    DESIRED_PROOF_IS_ZERO,
+    OK,
+    ERROR
+}

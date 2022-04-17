@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    tools:context="simo.com.alco.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="false">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:shrinkColumns="*"
+                android:weightSum="1"
+                android:background="#545145"
+                >
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+
+                    <TextView
+                        android:id="@+id/textView_fertman"
+                        android:layout_width="380dp"
+                        android:layout_height="150dp"
+                        android:background="#fdf4f1"
+                        android:gravity="center_vertical|end"
+                        android:padding="6sp"
+                        android:text="@string/inputInitialProofFertman1"
+                        android:textColor="#181919"
+                        android:textSize="18dp" />
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*"
+                android:shrinkColumns="*"
+                android:weightSum="5"
+                android:background="#545145"
+                >
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+                    <Button
+                        android:id="@+id/fbutton_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="2"
+                        android:text="@string/fbtn_1"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="1"
+                        android:text="@string/fbtn_2"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="0"
+                        android:text="@string/fbtn_3"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+                    <Button
+                        android:id="@+id/fbutton_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="5"
+                        android:text="@string/fbtn_4"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_i"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="4"
+                        android:text="@string/fbtn_5"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_j"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="3"
+                        android:text="@string/fbtn_6"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+                    <Button
+                        android:id="@+id/fbutton_e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="8"
+                        android:text="@string/fbtn_7"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="7"
+                        android:text="@string/fbtn_8"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_g"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="6"
+                        android:text="@string/fbtn_9"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+                    <Button
+                        android:id="@+id/fbutton_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="11"
+                        android:text="@string/fbtn_10"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="10"
+                        android:text="@string/fbtn_11"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/fbutton_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="9"
+                        android:text="@string/fbtn_12"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp">
+
+                    <ImageButton
+                        android:id="@+id/buttonClearFertman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#4cd3c9"
+                        android:src="@drawable/delete"
+                        android:tag="100" />
+
+                    <Button
+                        android:id="@+id/fbutton_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:background="#181919"
+                        android:tag="12"
+                        android:text="@string/fbtn_13"
+                        android:textColor="#fdf4f1"
+                        android:textSize="20dp" />
+
+                    <ImageButton
+                        android:id="@+id/buttonNextFertman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#4cd3c9"
+                        android:src="@drawable/forward"
+
+                        android:tag="101" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_calculators"
+        android:icon="@drawable/ic_dialpad"
+        android:title="@string/nav_calculators" />
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/ic_local_convenience_store_black_24dp"
+        android:title="@string/nav_shop" />
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="@string/nav_cart" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_person"
+        android:title="@string/nav_menu_settings" />
+</menu>

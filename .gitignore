@@ -83,3 +83,11 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+app/release/output.json
+
+app/src/androidTest/.DS_Store
+
+app/src/androidTest/java/simo/.DS_Store
+
+app/src/androidTest/java/.DS_Store

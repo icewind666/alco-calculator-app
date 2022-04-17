@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">Калькулятор Самогонщика</string>
+
+    <string name="inputInitialProof">Введите исходную крепость спирта, %</string>
+    <string name="usertoken">usertoken</string>
+    <string name="dadataAddressUrl">https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest/address</string>
+    <string name="heads_inputInitialProof">Введите исходную крепость спирта-сырца, %</string>
+    <string name="heads_inputTemp">Хотите сделать поправку на температуру? Не обязательно, но расчет будет точнее. Измерьте температуру спирта-сырца в градусах Цельсия и введите значение.</string>
+    <string name="heads_noway">Такого чистого спирта даже в лабораториях не делают. А по идее спирт-сырец Вы должны были гнать "до воды". Исправьте введенное значение!</string>
+    <string name="heads_novolume">Некорректное значение объема! Исправьте введенное значение!</string>
+    <string name="heads_inputInitialVolume">Введите исходный объем спирта-сырца, в ml</string>
+    <string name="heads_inputDesiredProof">Введите крепость дистиллята в струе, после которой Вы закончите отбор тела, в %</string>
+    <string name="heads_resultTextWithCorrection">При крепости спирта-сырца скорректированного на температуру %1$s℃ в %2$s%% и прекращении отбора тела на крепости %3$s%% примерный объем фракций будет составлять:\n Голов - %4$sml (Задано %5$s%% от АС)\nТела - %6$sml (крепость в струе %7$s%%)\nОстальной раствор содержит хвосты - %8$sml (не будь жлобом, подумай о здоровье)</string>
+    <string name="heads_resultText">При крепости спирта-сырца в %1$s%% и прекращении отбора тела на крепости %2$s%% примерный объем фракций будет составлять:\n Голов - %3$sml (Задано %4$s%% от АС)\nТела - %5$sml (крепость в струе %6$s%%)\nОстальной раствор содержит хвосты - %7$sml (не будь жлобом, подумай о здоровье)</string>
+    <string name="heads_percentTxt">УСТАНОВИТЬ ДОЛЮ ГОЛОВ В АБСОЛЮТНОМ СПИРТЕ</string>
+    <string name="heads_SettingDescription">Влияет на степень очистки и выход готового продукта</string>
+    <string name="heads_more_than_max">Максимальная крепость спирта составляет 96%%, а вы пытаетесь выгнать %1$s%%. Это невозможно, как бы нам этого не хотелось. Нажмите сброс и введите значения заново.</string>
+    <string name="heads_zero_proof">Введенное значение для крепости тела равно %1$s%%. Зачем во второй дробной дистилляции гнать до воды? Нажмите сброс и введите значения заново</string>
+    <string name="heads_you_do_it_wrong">Введенное значение для крепости тела равно %1$s%%. Эта крепость меньше чем в Вашем спирте-сырце %2$s%%. Таким образом Вы гоните не продукт, а хвосты. Нажмите сброс и введите значения заново</string>
+    <string name="heads_you_do_it_wrong_temp">Введенное значение для крепости тела равно %1$s%%. Эта крепость меньше чем в Вашем спирте-сырце %2$s%% при коррекции на температуру %3$s℃. Таким образом Вы гоните не продукт, а хвосты. Нажмите сброс и введите значения заново</string>
+    <string name="heads_desiredIsMoreThanInititalProof">Максимальная крепость спирта составляет 96%% а Вы пытаетесь выгнать %1$s%%. Это невозможно, как бы нам этого не хотелось.Нажмите сброс и введите значения заново</string>
+
+
+    <string name="inputInitialVolume">Введите исходный объем спирта, в ml</string>
+    <string name="inputInitialVolume_heads">Введите исходный объем спирта-сырца, в ml</string>
+    <string name="inputDesiredProof">Введите желаемую крепость спирта после разведения, %</string>
+    <string name="inputDesiredProof_heads">Введите крепость дистиллята в струе, при которой Вы закончите отбор тела, в %</string>
+    <string name="desiredIsMoreThanInititalProof">Желаемая крепость выше исходной. Введенная исходная крепость составляет %1$s%%, желаемая – %2$s%%. Исправьте желаемую крепость!</string>
+    <string name="desiredIsMoreThanInititalProofTemp">Желаемая крепость выше исходной. Введенная исходная крепость %1$s%% скорректированная на температуру %2$s℃ составляет %3$s%%, желаемая – %4$s%%. Исправьте желаемую крепость!</string>
+    <string name="inputTemp">Хотите сделать поправку на температуру (не обязательно)? Измерьте температуру спирта в градусах Цельсия и введите полученное значение.</string>
+    <string name="inputTemp_heads">Хотите сделать поправку на температуру (не обязательно)? Измерьте температуру спирта-сырца в градусах Цельсия и введите полученное значение.</string>
+    <string name="resultText">Смешайте ваш спирт крепостью %1$s%% и %2$sml воды чтобы получить желаемую крепость спирта %3$s%%. Внимание! При разбавлении правильно лить спирт в воду, а не наоборот!</string>
+
+    <string name="noway">Такого чистого спирта даже в лабораториях не делают. Исправьте введенное значение!</string>
+    <string name="different">Это уже не спирт, а какое-то другое вещество. Исправьте введенное значение!</string>
+    <string name="nothingToDo">Хотите разбавить до 0%? Выпейте водички и исправьте введенное значение!</string>
+    <string name="water">Это уже вода, разбавлять нечего, даже если очень хочется… Исправьте введенное значение!</string>
+    <string name="heads_water">Это уже вода, дробно перегонять нечего, даже если очень хочется… Исправьте введенное значение!</string>
+    <string name="tempTooHigh">Температура кипения спирта 78℃ - ваш спирт испаряется в атмосферу! Не открывайте куб до его полного остывания, срочно выключите нагрев и проветрите помещение. Если вы ошиблись - исправьте введенное значение!</string>
+    <string name="tempTooLow">Охлаждение спирта до такой температуры возможно только в лабораториях, а не на вашей кухне. Исправьте введенное значение!</string>
+    <string name="desiredIsMoreThanInitialFertman1">Желаемая крепость %1$s%% больше исходной крепости %2$s%%. Таких чудес не бывает, а жаль… Нажмите сброс и введите значения заново!</string>
+    <string name="desiredIsEqualInitialFertman1">Желаемая крепость %1$s%% равна исходной крепости %2$s%%. Ну какой в этом смысл? Нажмите сброс и введите значения заново!</string>
+
+    <string name="inputInitialProofFertman1">Введите исходную крепость разводимого спирта (1000ml), %</string>
+    <string name="resultTextFertman1">Для разведения до желаемой крепости %1$s%% Вам нужно %2$sml воды при 20℃ в которые следует добавить 1000ml спирта имеющейся крепости %3$s%% при температуре 20℃</string>
+    <string name="initialProofIsFertman1">Исходная крепость разводимого спирта:  %1$s%%</string>
+    <string name="desiredProofIsFertman1">Желаемая крепость спирта: %1$s%%</string>
+
+    <string name="initialTextFertman2">Таблица пропорций разведения спирта различной крепости при температуре 20℃. Цифра в месте пересечения горизонтальной и вертикальной строк указывает объем воды в ml при 20℃, который следует добавить к 1000ml спирта имеющейся крепости при 20℃, для разведения до необходимой крепости.</string>
+    <string name="desiredProofTextFertman2">Необходимая крепость спирта после разведения, %</string>
+    <string name="tableHeaderFertman2">Крепость разводимого спирта (1000ml), %</string>
+
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_6">6</string>
+    <string name="btn_4">4</string>
+    <string name="btn_9">9</string>
+    <string name="btn_8">8</string>
+    <string name="btn_7">7</string>
+    <string name="btn_5">5</string>
+    <string name="btn_0">0</string>
+
+    <string name="fbtn_1">k</string>
+    <string name="fbtn_2">l</string>
+    <string name="fbtn_3">m</string>
+
+    <string name="fbtn_4">h</string>
+    <string name="fbtn_5">i</string>
+    <string name="fbtn_6">j</string>
+
+    <string name="fbtn_7">e</string>
+    <string name="fbtn_8">f</string>
+    <string name="fbtn_9">g</string>
+
+    <string name="fbtn_10">b</string>
+    <string name="fbtn_11">c</string>
+    <string name="fbtn_12">d</string>
+
+    <string name="fbtn_13">a</string>
+
+    <string name="rateString">Если вам понравилось приложение, пожалуйста, поставьте нам 5 звезд ⭐️⭐️⭐️⭐️⭐️</string>
+    <string name="rateMaybeLater">Возможно позже</string>
+    <string name="rateNo">Нет, спасибо</string>
+    <string name="rateYes">Оценить</string>
+
+    <string name="formula">Формула</string>
+    <string name="fertman1">Фертман 1</string>
+    <string name="fertman2">Фертман 2</string>
+    <string name="settings">Настройки</string>
+
+    <string name="lastRunDate">lastRunDate</string>
+    <string name="prevRunDate">prevRunDate</string>
+    <string name="heads_percent">_headsPercent</string>
+    <string name="_24hrsLaunchCount">24hrsLaunchCount</string>
+    <string name="_2daysInaRowCount">2daysInaRowCount</string>
+    <string name="_firstRun">firstRun</string>
+    <string name="DecisionMade">DecisionMade</string>
+    <string name="TotalSuccessfulCalculationsCount">TotalSuccessfulCalculationsCount</string>
+    <string name="MaybeLaterCount">MaybeLaterCount</string>
+    <string name="MaybeLaterCountDays">MaybeLaterCountDays</string>
+    <string name="MaybeLaterCountDaysStarted">MaybeLaterCountDaysStarted</string>
+
+    <string name="title_activity_fertman2">Fertman2Activity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="settingsTitle">Ваш профиль</string>
+    <string name="defaultFormula">Расчет по умолчанию</string>
+    <string name="defaultActivityPref">defaultActivity</string>
+    <string name="defaultActivityPrefToast">По умолчанию установлен способ расчета: %1$s</string>
+
+    <string-array name="default_menu_choices">
+        <item>Формула</item>
+        <item>Фертман #1</item>
+        <item>Фертман #2</item>
+    </string-array>
+
+    <string name="appTitleNav">Калькулятор Самогонщика</string>
+
+    <!-- Toolbar titles when navigation menu items is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Формула</item>
+        <item>Фертман #1</item>
+        <item>Фертман #2</item>
+        <item>Настройки</item>
+    </string-array>
+
+    <string-array name="social_titles">
+        <item>ВКонтакте</item>
+        <item>Одноклассники</item>
+    </string-array>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <integer name="com_vk_sdk_AppId">6303643</integer>
+
+    <string name="action_sign_in_short">Sign in with VK</string>
+    <string name="action_sign_in_force">Force OAuth</string>
+    <string name="users_get">users.get</string>
+    <string name="friends_get">friends.get</string>
+    <string name="captcha_force">captcha.force</string>
+    <string name="wall_post">wall.post</string>
+    <string name="upload_photo">upload photo</string>
+    <string name="upload_photo_to_wall">upload photo to wall</string>
+    <string name="upload_several_photos_to_wall">upload several photos to wall</string>
+    <string name="continue_using_app">Continue using test application</string>
+    <string name="test_validation">Test validation</string>
+    <string name="test_share">Test share dialog</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Отмена</string>
+    <string name="joinSocial">Присоединяйтесь к группам в соцсетях!</string>
+    <string name="vkSuccess">"Отлично! Вы успешно вступили в группу!"</string>
+    <string name="becomePartnerDesc">Спасибо за проявленный интерес к сотрудничеству. Если Вы владелец интернет-магазина товаров для самогонщиков, продавец или производитель оборудования, автор или праообладатель книг по виноделию и самогоноварению, алко-блогер,  или Ваша деятельность каким-то образом связана с приготовлением домашнего алкоголя, то у нас есть для Вас предложение взаимовыгодного сотрудничества. Для того, чтобы мы могли познакомиться и обсудить детали, пожалуйста, заполните заявку и она будет отправлена нам по email:</string>
+    <string name="calculationByDefaultText">Расчет по умолчанию</string>
+    <string name="unrealInitialProof">Крепость Вашего спирта, скорректированная на введенную температуру составляет %1$s%%, что невозможно, как бы нам этого не хотелось. Нажмите сброс и введите значение заново</string>
+    <string name="nav_menu_shop">Магазин</string>
+    <string name="nav_menu_fert2">Фертман #2</string>
+    <string name="nav_menu_fert1">Фертман #1</string>
+    <string name="nav_menu_formula">Формула</string>
+    <string name="nav_menu_settings">Профиль</string>
+    <string name="nav_calculators">Калькуляторы</string>
+    <string name="becomePartnerMailHeader">Заявка на сотрудничество с Калькулятором Самогонщика</string>
+    <string name="feedbackMail">mailto:spasibomusic@gmail.com</string>
+    <string name="cacl_heads_fragment_btn">Расчет голов и тела</string>
+    <string name="cacl_sugar_litre_fragment_btn">Сахара на литр (по дрожжам)</string>
+    <string name="nav_shop">Магазин</string>
+    <string name="nav_cart">Корзина</string>
+    <string name="regEnterEmailAndPass">Введите адрес почты и придумайте пароль</string>
+    <string name="regEnterMail">Почта</string>
+    <string name="regEnterPass">Пароль</string>
+    <string name="regPasswordHint">Пароль должен состоять минимум из 6 символов (латинские буквы и цифры) и содержить минимум одну цифру</string>
+    <string name="regSubscribe">Подписаться на новости</string>
+    <string name="regSubscribeHint">Мы будем присылать Вам уведомления о специальных акциях наших партнеров, скидках и распродажах</string>
+    <string name="regRegBtnText">Зарегистрироваться</string>
+    <string name="regCancel">Отмена</string>
+    <string name="error_in_3ds">Произошла ошибка. Попробуйте повторить платеж</string>
+    <string name="login_failed_err_txt">Ошибка входа! Введите корректные данные и попробуйте еще раз</string>
+    <string name="login_fill_required_err">Заполните обязательные поля и попробуйте еще раз!</string>
+    <string name="inputInitialTolerance">Введите толерантность дрожжей (сколько % дрожжи набраживают, должно быть указано на пачке).</string>
+    <string name="tooHighTolerance">К сожалению, такой толерантный штамм дрожжей еще не вывели. Нажмите сброс и укажите данные о набраживании указанные на пачке ваших дрожжей.</string>
+    <string name="tooLowTolerance">Дрожжи толерантностью менее 1%  - уже мертвы. Пожалуйста, сверьтесь с маркировкой на упаковке дрожжей и введите значение заново.</string>
+
+</resources>
